@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My to do list your time saver app!" />
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>My To Do List</title>
+  </head>
+  <body>
+    <header>
+      <i class="fas fa-clipboard-check"></i><h1>My To Do List</h1>
+      <p>your time saver app!</p>
+    </header>
+
+    <main>
+        <div id="myList">
+            <label for="Add">Aggiungi tasks</label>
+            <input type="text" name="Add" id="myInput" placeholder="Inserisci testo"> <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        <div id="task">
+            <ul id="myUl">
+                <li>Learn HTML</li>
+                <li class="checked">Learn CSS</li>
+                <li>Learn JavaScript</li>
+                
+            </ul>
+        </div>
+
+
+
+        
+
+
+
+    </main>
+
+    <script src="/script/script.js"></script>
+  </body>
+</html>

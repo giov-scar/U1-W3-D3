@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300;600&display=swap");
+/* GENERAL SETTINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+ul,
+li,
+input {
+  font-family: "Geologica", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+  display: inline-block;
+}
+
+p {
+  font-style: italic;
+}
+
+body{
+    background-color: #202A44;
+}
+/* HEADER */
+header {
+  margin: 5%;
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+i{
+    font-size: 2em;
+    margin-right: 1%;
+}
+
+/* MAIN */
+main {
+  margin: 5%;
+}
+#myList {
+  margin-bottom: 5%;
+  color: white;
+}
+
+#myInput {
+  width: 500px;
+  height: 35px;
+  border-radius: 7px;
+  margin-left: 2%;
+}
+
+
+/* LIST */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    margin-bottom: 1%;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
+.addBtn {
+    font-family:"Geologica", sans-serif;
+    padding: 10px;
+    width: 30%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.addBtn:hover {
+    background-color: #f44336;
+    color: white;
+}
